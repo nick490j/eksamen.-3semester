@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="prose mx-5">
+
+
+    <header class="banner flex justify-between">
+        <img src="/img/logo.svg" alt="Logo" />
+        <div>
+          <button class="toggle-btn">☰</button>
+          <nav class="navbar">
+            <div class="dropdown">
+              <button class="dropbtn place-items-right">
+                <p class="">SHOP</p>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="fremkaldelse.html">BESTIL FREMKALDELSE</a>
+                <a href="#0">KØB FILM & GAVEKORT</a>
+                <a href="#0">VIDEO OVERSPILNING</a>
+                <a href="smalfilm-overspillet.html">SMALFILM OVERSPILNING</a>
+                <a href="#0">SCAN AF LYSBILLEDER</a>
+                <a href="#0">SCAN AF PAPIRBILLEDER</a>
+              </div>
+            </div>
+            <a href="">ANALOG-GUIDE</a>
+            <a href="">SÅDAN GØR DU</a>
+            <a href="">OM OS</a>
+            <a href="">FAQ</a>
+            <a href=""><img src="/img/Bag.svg" alt="Kurv" /></a>
+          </nav>
+        </div>
+      </header>
+
+    <section>
+        <h1>Indscanning af smalfilmfilm</h1>
+        <h3>VI INDSCANNER & DIGITALISERER DINE SMALFILM I PROFESSIONEL KVALITET</h3>
+        <img src="/img/smalfilmbillede.png" alt="">
+        <h2>INDSCANNING AF SMALFILM GJORT NEMT & ENKELT</h2>
+        <p>Vi kan indscanne og digitalisere dine smalfilm i professionel kvalitet om det bare er til at dele med familien eller til en professionel videoproduktion.
+        </p>
+        <ol>
+        <li>Udfyld formular forneden.</li>
+        <li>Modtag prisoverslag.</li>
+        <li>Send eller indlevér dine smalfilm til os.</li>
+        <li>Modtag videofiler på mail eller på USB.</li>
+    </ol>
+    </section>
+    
+
+
+    <section>
+        <h3></h3>
+        <h4></h4>
+        <div class="grid grid-cols-3">
+        <button class="col-span-3">Smalfilm og kvalitet</button>
+        </div>
+        <table></table>
+
+        <table></table>
+    </section>
+
+    <section>
+        <h2>Prisliste på smalfilms-overspilninger</h2>
+<p>Vælg smalfilm og kvalitet</p>
+</section>
+
+<section class=" smalfilmbutton grid grid-cols-2 gap-5">
+<div x-data="{ open: false }" x-cloak>
+
+
+  <button @click="open = ! open" :aria-expanded="open" aria-controls="smalfilm og kvalitet prislise">8mm SD</button>
+  <ol x-show="open" id="tracklist">
+   <div>
+    <h3>Opstart</h3>
+    <p>250 Kr.</p>
+   </div>
+   <div>
+    <h3>Pris pr. minut</h3>
+    <p>15 Kr.</p>
+   </div>
+
+   <div>
+    <h3>Spoleskift pr. stk</h3>
+    <p>15 Kr.</p>
+   </div>
+
+   <div>
+    <h3>splejsning pr. stk.</h3>
+    <p>15 Kr.</p>
+   </div>
+  </ol>
+</div>
+
+<div class="smalfilm_og_kvalitet" x-data="{ open: false }" x-cloak>
+    <button @click="open = ! open" :aria-expanded="open" aria-controls="tracklist">8mm HD 720p</button>
+    <ol class="" x-show="open" id="tracklist">
+     <div>
+      <h3>Opstart</h3>
+      <p>250 Kr.</p>
+     </div>
+     <div>
+      <h3>Pris pr. minut</h3>
+      <p>20 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>Spoleskift pr. stk</h3>
+      <p>15 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>Splejsning pr. stk.</h3>
+      <p>15 Kr.</p>
+     </div>
+    </ol>
+  </div>
+
+  <div x-data="{ open: false }" x-cloak>
+    <button @click="open = ! open" :aria-expanded="open" aria-controls="tracklist">8mm HD 1080P</button>
+    <ol x-show="open" id="tracklist">
+     <div>
+      <h3>Opstart</h3>
+      <p>250 Kr.</p>
+     </div>
+     <div>
+      <h3>Pris pr. minut</h3>
+      <p>30 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>Spoleskift pr. stk</h3>
+      <p>15 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>splejsning pr. stk.</h3>
+      <p>15 Kr.</p>
+     </div>
+    </ol>
+  </div>
+  
+  <div x-data="{ open: false }" x-cloak>
+    <button @click="open = ! open" :aria-expanded="open" aria-controls="tracklist">9,5mm SD</button>
+    <ol x-show="open" id="tracklist">
+     <div>
+      <h3>Opstart</h3>
+      <p>350 Kr.</p>
+     </div>
+     <div>
+      <h3>Pris pr. minut</h3>
+      <p>25 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>Spoleskift pr. stk</h3>
+      <p>15 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>splejsning pr. stk.</h3>
+      <p>15 Kr.</p>
+     </div>
+    </ol>
+  </div>
+  
+  <div x-data="{ open: false }" x-cloak>
+    <button @click="open = ! open" :aria-expanded="open" aria-controls="tracklist">9,5mm HD 720P</button>
+    <ol x-show="open" id="tracklist">
+     <div>
+      <h3>Opstart</h3>
+      <p>350 Kr.</p>
+     </div>
+     <div>
+      <h3>Pris pr. minut</h3>
+      <p>35 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>Spoleskift pr. stk</h3>
+      <p>15 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>splejsning pr. stk.</h3>
+      <p>15 Kr.</p>
+     </div>
+    </ol>
+  </div>
+  
+  <div x-data="{ open: false }" x-cloak>
+    <button @click="open = ! open" :aria-expanded="open" aria-controls="tracklist">9,4mm HD 1080p</button>
+    <ol x-show="open" id="tracklist">
+     <div>
+      <h3>Opstart</h3>
+      <p>350 Kr.</p>
+     </div>
+     <div>
+      <h3>Pris pr. minut</h3>
+      <p>40 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>Spoleskift pr. stk</h3>
+      <p>15 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>splejsning pr. stk.</h3>
+      <p>15 Kr.</p>
+     </div>
+    </ol>
+  </div>
+  
+  <div x-data="{ open: false }" x-cloak>
+    <button @click="open = ! open" :aria-expanded="open" aria-controls="tracklist">16mm HD 720p</button>
+    <ol x-show="open" id="tracklist">
+     <div>
+      <h3>Opstart</h3>
+      <p>450 Kr.</p>
+     </div>
+     <div>
+      <h3>Pris pr. minut</h3>
+      <p>25 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>Spoleskift pr. stk</h3>
+      <p>15 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>splejsning pr. stk.</h3>
+      <p>15 Kr.</p>
+     </div>
+    </ol>
+  </div>
+  
+  <div x-data="{ open: false }" x-cloak>
+    <button @click="open = ! open" :aria-expanded="open" aria-controls="tracklist">16mm HD 1080p</button>
+    <ol x-show="open" id="tracklist">
+     <div>
+      <h3>Opstart</h3>
+      <p>450 Kr.</p>
+     </div>
+     <div>
+      <h3>Pris pr. minut</h3>
+      <p>30 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>Spoleskift pr. stk</h3>
+      <p>15 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>splejsning pr. stk.</h3>
+      <p>15 Kr.</p>
+     </div>
+    </ol>
+  </div>
+
+  
+  <div x-data="{ open: false }" x-cloak>
+    <button @click="open = ! open" :aria-expanded="open" aria-controls="tracklist">16mm 2K</button>
+    <ol x-show="open" id="tracklist">
+     <div>
+      <h3>Opstart</h3>
+      <p>450 Kr.</p>
+     </div>
+     <div>
+      <h3>Pris pr. minut</h3>
+      <p>35 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>Spoleskift pr. stk</h3>
+      <p>15 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>splejsning pr. stk.</h3>
+      <p>15 Kr.</p>
+     </div>
+    </ol>
+  </div>
+  
+  <div x-data="{ open: false }" x-cloak>
+    <button @click="open = ! open" :aria-expanded="open" aria-controls="tracklist">16mm 4K</button>
+    <ol x-show="open" id="tracklist">
+     <div>
+      <h3>Opstart</h3>
+      <p>450 Kr.</p>
+     </div>
+     <div>
+      <h3>Pris pr. minut</h3>
+      <p>70 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>Spoleskift pr. stk</h3>
+      <p>15 Kr.</p>
+     </div>
+  
+     <div>
+      <h3>splejsning pr. stk.</h3>
+      <p>15 Kr.</p>
+     </div>
+    </ol>
+  </div>
+
+    </section>
+
+
+<br>
+<br>
+<br>
+    <section>
+        <form>
+            <h2>UDFYLD FORMULAR & MODTAG BESTILLINGSLINK</h2>
+
+            <label  for="fname">Fornavn:</label><br>
+            <input class="input" type="text"  name="fname"><br>
+            <label for="lname">Efternavn:</label><br>
+            <input class="input" type="text"  name="lname"><br>
+            <label for="fname">Email::</label><br>
+            <input class="input" type="text"  name="fname"><br>
+            <label for="lname">Telefonnummer::</label><br>
+            <input class="input" type="text" name="lname"><br>
+<br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+             <label for="vehicle1"> USB/HDD KOPI:  + 249 KR.*</label><br>
+          <h4>SMALFILM INFO</h4>
+          <p>Skriv her antal ruller, type af smalfilm, diameter på dem og hvilken kvalitet de ønskes scannet i:</p>
+          <label for="lname">  <label for="lname"></label>
+            <input type="text"  name="lname"><br></label><br>
+            <button>Indsend</button>
+        </form>
+    </section>
+    <br>
+
+    <section class="spørgsmål">
+        <h3>HAR DU SPØRGSMÅL?</h3>
+        <p>Du finder svar på mange spørgsmål under vores FAQ, og ellers skal du altid være velkommen til at kontakte os. Du kan finde vores kontaktinformationer på Om os siden.</p>
+    </section>
+    <script src="https://unpkg.com/alpinejs@3.9.1/dist/cdn.min.js" integrity="sha384-mDHH3kdyMS0F6QcfHCxEgPMMjssTurzucc7Jct3g1GOfB4p7PxJuugPP1NOLvE7I" crossorigin="anonymous"></script>
+
+    <script type="module" src="./main.js"></script>
+
+</body>
+</html>

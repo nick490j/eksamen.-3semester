@@ -4,15 +4,101 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Cph-Lab</title>
   </head>
-  <body class="grid place-items-center p-8">
-    <h1 class="text-xl font-bold text-emerald-700">Tailwind Template E2022</h1>
-    <p class="text-emerald-500">
-      Powered by <a href="https://vitejs.dev/guide">Vite</a>
-    </p>
-    <img src="img/vite.svg" alt="Vite Logo" />
+  <body class="">
 
+
+ 
+<main>
+
+    <header class="banner flex justify-between">
+      <img src="/img/logo.svg" alt="Logo" />
+      <div>
+        <button class="toggle-btn">☰</button>
+        <nav class="navbar">
+          <div class="dropdown">
+            <button class="dropbtn place-items-right">
+              <p class="">SHOP</p>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="fremkaldelse.html">BESTIL FREMKALDELSE</a>
+              <a href="#0">KØB FILM & GAVEKORT</a>
+              <a href="#0">VIDEO OVERSPILNING</a>
+              <a href="smalfilm-overspillet.html">SMALFILM OVERSPILNING</a>
+              <a href="#0">SCAN AF LYSBILLEDER</a>
+              <a href="#0">SCAN AF PAPIRBILLEDER</a>
+            </div>
+          </div>
+          <a href="">ANALOG-GUIDE</a>
+          <a href="">SÅDAN GØR DU</a>
+          <a href="">OM OS</a>
+          <a href="">FAQ</a>
+          <a href=""><img src="/img/Bag.svg" alt="Kurv" /></a>
+        </nav>
+      </div>
+    </header>
+  </main>
+      <section>
+        <h1 class="text-center">
+          FÅ MERE UD AF DINE FILM- <br />
+          BILLEDER MED CPH-LAB
+        </h1>
+        <img
+          class="w-screen md:hidden"
+          src="/img/splashbillede-mobil.png"
+          alt="Billedeprinter"
+        />
+        <img
+          class="hidden md:block"
+          src="/img/splashbillede.png"
+          alt="splashbillede"
+        />
+        <div class="grid grid-cols-3">
+          <button class=" ctaknap col-span-3 mt-6">BESTIL DIN FREMKALDELSE</button> 
+        </div><br>
+
+      </section>
+      <section class="">
+        <h2>VORES SERVICES</h2>
+        <div class="grid grid-cols-2 grid-rows-2">
+          <img
+            class="mr-4 max-h-80 md:col-start-1 md:row-span-2"
+            src="/img/Forside-billede1.png"
+            alt="Filmkamera"
+          />
+
+          <p class="md:col-start-2 md:row-start-1">
+            CPH-LAB er skabt og drives af et passioneret team filmnørder - vi
+            har skræddersyet en service, der gør det nemt for alle, at få
+            fremkaldt sine analogfilm, uanset hvor man bor i landet.
+          </p>
+          <div class="md:col-start-2 md:row-start-2">
+            <h3>Vi tilbyder</h3>
+            <ul>
+              <li><h4>Fremkalelse af analogfilm</h4></li>
+              <li><h4>Scan af lys- og papirbilleder</h4></li>
+              <li><h4>Overspilning af smalfilm og videobånd</h4></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 class="md:text-center">
+          DE PROFESSIONELLES VALG TIL DE LAVESTE PRISER
+        </h2>
+      </section>
+      <section>
+        <h2 class="text-center">@CPH.LAB</h2>
+        <p class="md:text-center">
+          Tag os med @cph.lab på instagram på dit filmbillede for at blive
+          featured på vores instagram og vær med i lodtrækningen om 1x gratis
+          fremkaldelse + Digitale billeder !
+        </p>
+      </section>
+    <footer></footer>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
